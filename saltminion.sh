@@ -3,6 +3,7 @@ echo
 echo This script will install salt-minion with custom configuration.
 echo This bash-script is from github.com/mantop/saltminion
 echo
+sudo apt-get update
 sudo apt-get install -y salt-minion
 echo
 echo
