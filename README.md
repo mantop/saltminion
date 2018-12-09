@@ -1,5 +1,5 @@
 # saltminion
-## This script will install salt-minion with custom configuration
+## This script will install salt-minion with custom configuration for Linux (intended for Ubuntu/Xubuntu)
 
 ### Installation:
 ```
