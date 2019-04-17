@@ -8,9 +8,10 @@ sudo apt-get install -y salt-minion
 echo
 echo
 echo Editing salt-minion configuration 
-echo Please insert id for this minion: 
+echo Please insert master IP and your minion id for this minion: 
+read -p 'master ip: ' ipvar
 read -p 'id: ' idvar
-echo -e "master: 46.101.181.102\nid: $idvar" | sudo tee /etc/salt/minion
+echo -e "master: $ipvar\nid: $idvar" | sudo tee /etc/salt/minion
 echo
 echo Tried to write in /etc/salt/minion
 echo
